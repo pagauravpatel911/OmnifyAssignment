@@ -1,0 +1,72 @@
+  GetOminfy-Assignment
+
+ ### I am able to  make backend For this project for the given time so plz considered
+### Page 1 : Signup / Login  
+
+Build a user authentication forms for Signup, Login. A new use must enter 
+
+- First name
+- Last name
+- Email
+- Password
+
+On submission of the form create a user in your database, and redirect to a home page.
+
+In case of **Login page** accept email and password to login and redirect user to home page.
+
+
+### Page 2 :  Scheduled Events
+
+**backend**
+
+Build a form to accept the following properties && and also adding the authorozation  only valid user can make slot only
+
+- Name <string>
+- Description <text>
+- Start time: use date-time picker for selecting value
+- End Time: use date-time picker for selecting value
+- Day of the week : multi-select dropdown
+
+
+## sample :=>
+
+
+## from post man input =>
+{
+      "userId":"62baae9766f85e099a39d95e",
+       "bookDate":"2022-08-17",
+       "name": "Officemeet",
+       "discription":"GeneratMeet",
+       "startTime":"16.00",
+      "endTime":"17.00",
+      "weekDay": "Tuesday"
+      
+}
+
+
+
+
+## output =>
+
+{
+    "msg": "Slot created Succsesfully",
+    "data": [
+        "23-August-2022",
+        "30-August-2022",
+        "6-September-2022",
+        "13-September-2022",
+        "20-September-2022",
+        "27-September-2022",
+        "4-October-2022",
+        "11-October-2022",
+        "18-October-2022",
+        "25-October-2022",
+        "1-November-2022",
+        "8-November-2022",
+        "15-November-2022"
+    ]
+}
+
+
+
+## Thank you for this opertunity ##
